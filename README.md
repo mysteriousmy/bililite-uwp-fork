@@ -16,9 +16,18 @@ https://app.bilibili.com/
 
 # BiliLite
 
-> BiliBili第三方UWP客户端
+> BiliBili 第三方 UWP 客户端
 
-从逍遥橙子大佬那fork出来
+修改：
+
+- TitleBar 拖动失效和区域拉伸问题
+
+- 分离窗口（待改）
+
+Fork 自：后续接手维护的 ywmoyue 大佬
+https://github.com/ywmoyue/biliuwp-lite
+
+源头：逍遥橙子大佬
 
 https://github.com/xiaoyaocz/biliuwp-lite
 
@@ -42,13 +51,16 @@ https://github.com/ywmoyue/biliuwp-lite/discussions
 
 ## 构建
 
-* 版本发布可能不够及时，有些问题可能dev分支修复了却没发版本，有一定编程基础的可以自行Clone项目下来自己构建 
+- 版本发布可能不够及时，有些问题可能 dev 分支修复了却没发版本，有一定编程基础的可以自行 Clone 项目下来自己构建
 
 ### 步骤
-1. 使用Terminal运行
+
+1. 使用 Terminal 运行
+
 ```sh
 git clone -b dev https://github.com/ywmoyue/biliuwp-lite.git
 ```
-2. 双击项目中的BiliLite.sln文件使用VisualStudio2019以上的版本打开
-3. 右键点击BiliLite.Packages项目，选择设为启动项目
-4. 按ctrl+f5开始构建并执行，成功后关闭VS即可
+
+2. 双击项目中的 BiliLite.sln 文件使用 VisualStudio2019 以上的版本打开
+3. 右键点击 BiliLite.Packages 项目，选择设为启动项目
+4. 按 ctrl+f5 开始构建并执行，成功后关闭 VS 即可
